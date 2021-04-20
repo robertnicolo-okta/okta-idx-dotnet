@@ -16,14 +16,6 @@ namespace Okta.Idx.Sdk
     public interface IIdxClient : IOktaClient
     {
         /// <summary>
-        /// Begins idx flow.
-        /// </summary>
-        /// <param name="state">Optional user specified state handle for later manual correlation.</param>
-        /// <param name="cancellationToken">The cancellation token.</param>
-        /// <returns>The idx context.</returns>
-        Task<IIdxContext> InteractAsync(string state = null, CancellationToken cancellationToken = default);
-
-        /// <summary>
         /// Gets the client configuration.
         /// </summary>
         IdxConfiguration Configuration { get; }

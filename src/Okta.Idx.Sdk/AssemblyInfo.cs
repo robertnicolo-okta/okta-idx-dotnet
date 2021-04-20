@@ -22,3 +22,4 @@ using System.Runtime.InteropServices;
 [assembly: Guid("4f25e183-56b9-4d7d-9f6c-c09f50e21873")]
 [assembly: InternalsVisibleTo("Okta.Idx.Sdk.IntegrationTests")]
 [assembly: InternalsVisibleTo("Okta.Idx.Sdk.UnitTests")]
+[assembly: InternalsVisibleTo("Okta.AspNetCore")]
